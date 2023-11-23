@@ -1,0 +1,18 @@
+.screen {
+  min-height: 510px;
+  margin-top: 20px;
+  background: url("/img/background/Mask.png");
+  background-size: 100% 100%;
+  position: relative;
+}
+.screen:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  background: url("/img/background/coding.png");
+  background-size: 100% 100%;
+}/*# sourceMappingURL=screen.css.map */
